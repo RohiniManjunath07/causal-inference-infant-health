@@ -1,46 +1,73 @@
-**Causality Inference on Infant Health Dataset**
-- Exploring causal relationships in infant health data using advanced modelling and interactive dashboards.
+# Causal Inference on Infant Health Dataset
+
+Exploring causal relationships in infant health data using advanced modelling techniques and interactive dashboards.
 
 ---
 
-**Project Overview**
-- This project investigates causal effects and relationships in infant health metrics, using a publicly available dataset. The aim is to go beyond correlation and uncover causal inference, such as how various prenatal and postnatal factors influence infant outcomes.
+## Project Overview
+
+This project investigates **causal effects and relationships** in infant health metrics using a publicly available dataset.  
+The objective is to move **beyond correlation** and uncover meaningful **causal insights**, such as how prenatal and postnatal factors influence infant health outcomes.
 
 ---
 
-**Key highlights:**
+## Key Highlights
 
--Data preprocessing & cleaning
--Causal modelling (e.g., using inverse probability weighting, propensity scores)
--Interactive dashboards for exploratory analysis
--Transparent, reproducible Jupyter Notebooks
-
----
-
-**Repository Structure**
-
-- dataset/           ← Raw and cleaned data files
-- dashboard/         ← Dashboard code & assets (plots, UI)
-- Casual_Model.ipynb ← Causal inference model notebook
-- IPW.ipynb          ← Inverse probability weighting notebook
+- Data preprocessing and cleaning  
+- Causal modelling using **Propensity Scores** and **Inverse Probability Weighting (IPW)**  
+- Interactive dashboards for exploratory and causal analysis  
+- Transparent and reproducible analysis using **Jupyter Notebooks**
 
 ---
 
-**Methods & Approach**
+## Repository Structure
 
-- Data Exploration — Visualise distributions, missingness, relationships among features.
-- Causal Framework Setup — Define treatment, outcome and confounders; illustrate assumptions.
+sml_project/
+│
+├── datasets/                   # Raw and cleaned infant health datasets
+│   ├── balanced_ihdata.csv
+│   ├── unbalanced_ihdata.csv
+│
+├── dashboard/                  # Streamlit dashboard application
+│   ├── dashboard.py
+│   └──                  # Plots / UI resources (if any)
+│
+├── Casual_Model.ipynb          # Causal inference modelling notebook
+├── IPW.ipynb                   # Inverse Probability Weighting analysis
+└── .gitignore                  # Ignored files and folders
+
 
 ---
 
-**Model Implementation**
+## Methods & Approach
 
-- Propensity score estimation
-- Inverse‑Probability‑Weighting (IPW)
+### 1. Data Exploration
+- Visualized data distributions, missing values, and feature relationships
+- Identified key variables affecting infant health outcomes
+
+### 2. Causal Framework Setup
+- Defined **treatment, outcome, and confounder variables**
+- Established causal assumptions and study design
+
+### 3. Model Implementation
+- Propensity score estimation  
+- Inverse Probability Weighting (IPW)  
+- Sensitivity and robustness analysis
+
+### 4. Dashboarding & Visualization
+- Built interactive dashboards to explore results
+- Summarized causal effects using visual analytics
+
+### 5. Interpretation & Reporting
+- Interpreted causal estimates in the context of infant health
+- Derived insights to support data-driven conclusions
 
 ---
 
-**Sensitivity/robustness analyses**
+## Tools & Technologies
 
-- Dashboarding & Visualisation — Interactive plots and summary dashboards to support findings.
-- Interpretation & Reporting — What the causal estimates imply in the context of infant health.
+- Python  
+- Pandas, NumPy, Scikit-learn  
+- Jupyter Notebook  
+- Streamlit  
+
