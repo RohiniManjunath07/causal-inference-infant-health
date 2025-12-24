@@ -26,11 +26,11 @@ sml_project/
 │
 ├── datasets/                   # Raw and cleaned infant health datasets
 │   ├── balanced_ihdata.csv
-│   ├── unbalanced_ihdata.csv
+│   ├── ihdata.csv
 │
 ├── dashboard/                  # Streamlit dashboard application
-│   ├── dashboard.py
-│   └──                  # Plots / UI resources (if any)
+│   ├── causal_dashboard.ipynb
+│   └── causal_dashboard.py     # Plots / UI resources (if any)
 │
 ├── Casual_Model.ipynb          # Causal inference modelling notebook
 ├── IPW.ipynb                   # Inverse Probability Weighting analysis
