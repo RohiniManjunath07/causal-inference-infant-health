@@ -21,7 +21,7 @@ The objective is to move **beyond correlation** and uncover meaningful **causal 
 ---
 
 ## Repository Structure
-
+```
 sml_project/
 │
 ├── datasets/                   # Raw and cleaned infant health datasets
@@ -35,7 +35,7 @@ sml_project/
 ├── Casual_Model.ipynb          # Causal inference modelling notebook
 ├── IPW.ipynb                   # Inverse Probability Weighting analysis
 └── .gitignore                  # Ignored files and folders
-
+```
 
 ---
 
